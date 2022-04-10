@@ -5,3 +5,19 @@
     border-radius: 1.7rem;
 }
 
+@media screen and (max-width: 470px) {
+    html{
+        font-size: 60%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .wrapper{
+        width: 40rem;
+    }
+
+    .container{
+        height: 100vh;
+        width: 100vw;
+    }
+}
